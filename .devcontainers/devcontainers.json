@@ -1,0 +1,18 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mads-hartmann.bash-ide-vscode",
+                "pomdtr.markdown-kroki",
+                "github.vscode-github-actions",
+                "github.vscode-pull-request-github",
+                "github.copilot"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/m4tchl0ck/devcontainers-features/powerlevel10k:1": {},
+        "ghcr.io/m4tchl0ck/devcontainers-features/pact-cli:1": {}
+    }
+}
